@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="visit.css">
+</head>
+
+<body>
+    <div class="header">
+        <ul class="hefirst">
+            <li class="hefirst"> <a href="login.html" class="hi">Login</a></li>
+            <li class="hefirst"><a href="contact.html" class="hi">Contact</a></li>
+            <li class="hefirst"><a href="visit.html" class="hi">Destinations</a></li>
+            <li class="hefirst"><a href="Home.html" class="hi">Home</a></li>
+        </ul>
+    </div>
+    <div class="form">
+        <input type="text" id="imageName" class="inp">
+        <!--<button onclick="changeImage()" class="inp1">Change Image</button>-->
+        <input type="submit" onclick="changeImage()" class="inp1">
+
+    </div>
+    <div class="content">
+
+        <img id="myImage" src="" alt="Image" class="main">
+
+        <script>
+            function changeImage() {
+                var imageName = document.getElementById("imageName").value;
+                var basePath = "C:/xampp/htdocs/location/";
+                var imageUrl = basePath + imageName + ".jpg";
+                var image = document.getElementById("myImage");
+                image.src = imageUrl;
+                image.alt = "Image: " + imageName;
+            }
+        </script>
+        <div>
+            <p>Description</p>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

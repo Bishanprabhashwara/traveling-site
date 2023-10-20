@@ -1,0 +1,105 @@
+.h1 {
+    font-family: 'Tahoma';
+    font-size: 250%;
+}
+
+table {
+    width: 100%;
+    position: relative;
+    top: 20%;
+}
+
+.td1 {
+    width: 40%;
+    /*background-image: url('photo-1619531065298-1a34dce6d4c9.jpeg');
+    height: 500px;*/
+}
+
+.td2 {
+    width: 60%;
+
+}
+
+
+
+input {
+    height: 40px;
+    border: solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    opacity: 1;
+}
+
+body {
+    background-image: url('photo-1646894232861-a0ad84f1ad5d.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+
+
+
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.name,
+.email {
+    width: 35%;
+}
+
+.sub {
+    width: 70%;
+}
+
+
+textarea {
+    border: solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 100px;
+    width: 70%;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+textarea:hover {
+    height: 120px;
+}
+
+input:hover {
+    height: 60px;
+}
+
+p.contact1 {
+    font-family: 'Tahoma';
+    font-size: 20px;
+    width: 75%;
+    text-align: left;
+}
+
+.contact2 {
+    font-family: 'Tahoma';
+    font-size: 30px;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+}

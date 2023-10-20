@@ -1,0 +1,38 @@
+ul.hefirst {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+.header {
+    border: solid 4px;
+    border-color: #808080;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li.hefirst a.hi {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.hefirst a.hi:hover {
+    background-color: #111;
+}
+
+li.hefirst {
+    float: right;
+}
+
+p.first {
+    position: relative;
+    top: 20%;
+}

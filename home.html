@@ -1,0 +1,327 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home2.css">
+    <link rel="stylesheet" href="header.css">
+    <script src="home.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <ul class="hefirst">
+            <li class="hefirst"> <a href="login.html" class="hi">Login</a></li>
+            <li class="hefirst"><a href="contact.html" class="hi">Contact</a></li>
+            <li class="hefirst"><a href="visit.php" class="hi">Destinations</a></li>
+            <li class="hefirst"><a href="Home.html" class="hi">Home</a></li>
+        </ul>
+    </div>
+    <div class="contact">
+        <p>
+            <a href="https://web.facebook.com/login/"><img
+                    src="photos\pngtree-facebook-logo-facebook-icon-png-image_3566127.png" class="contact"></a><br>
+            <a href="www.youtube.com"><img src="photos\sm_5aeee59357bbb.png" class="contact"></a><br>
+            <a href="www.instagram.com"><img src="photos\122263-logo-instagram-free-clipart-hd.png"
+                    class="contact"></a><br>
+            <a href="www.telegrame.com"><img src="photos\Telegram-Logo-PNG-Isolated-HD.png" class="contact"></a>
+        </p>
+    </div>
+    <div class="video">
+        <video autoplay muted loop id="myVideo">
+            <source src="Beautiful Sri Lanka _ So Sri Lanka.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="content">
+        <h1 class="content1"><i>Aybovan</i></h1>
+        <p class="content1"><i>Sri Lanka</i></p>
+    </div>
+    <div align="center" class="pynt">
+        <p>
+            <a href="visit.php" class="hrea">Plan Your Next Trip</a>
+        </p>
+    </div>
+    <div class="a">
+        <div class="intro">
+            <p class="intro"><img src="photos\sigiriya-sri-lanka-rock-landscape.jpg" class="sigiriya" align="left">
+                <span class="space"><i>You
+                        chose</i></span><br /><span class="srilanka"><i>Sri lanka</i></span> has received numerous
+                accolades as
+                a top tourist
+                destination in recent years, with recognition from various travel guides, magazines, and
+                websites.
+                It has been ranked as a top destination in Asia and the world, with awards for its cuisine,
+                natural
+                beauty, and cultural heritage. These accolades highlight Sri Lanka as a must-visit destination
+                for
+                travelers.
+            </p>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="why">
+
+        <div class="floatleft">
+            <div class="leftwhy">
+
+                <div class="triangle-left"> </div>
+                <div class="triangle-right"></div>
+                <div class="triangle-lefta"></div>
+                <div class="triangle-rightb"></div>
+            </div>
+
+        </div>
+        <div>
+            <div class="img2">
+                <img src="photos\161512038_197162522138_1501484955_n.jpg" class="img" width="100%" height="100%">
+            </div>
+            <div class="img1">
+                <img src="photos\Sri-Lanka-Cultural-History-1024x652.jpg" class="img" width="100%" height="100%">
+            </div>
+            <div class="img3">
+                <img src="photos\istockphoto-182181874-612x612.jpg" class="img" width="100%" height="100%">
+            </div>
+            <div class="img4">
+                <img src="photos\Sinharaja-Poem.jpg" class="img" width="100%" height="100%">
+            </div>
+            <div class="img5">
+                <img src="photos\52.jpg" class="img" width="100%" height="100%">
+            </div>
+            <div class="rightwhy">
+                <div class="first">
+
+                    <p class="first">You Know Why You Must Visit Sri Lanka?</p>
+                </div>
+            </div>
+            <div class="second">
+                <p>
+                    Sri Lanka, a resplendent island nation nestled in the heart of the Indian Ocean, boasts a rich
+                    tapestry of history, nature, people, and beauty that captivates the soul. Steeped in a storied past,
+                    Sri Lanka's history dates back millennia, with ancient kingdoms, majestic temples, and colonial
+                    influences shaping its heritage.
+                </p>
+            </div>
+            <div class="third">
+                <p>
+                    Nature's wonders flourish here, from pristine beaches that stretch as far as the eye can see to lush
+                    rainforests teeming with diverse flora and fauna. The island is also adorned with mesmerizing
+                    landscapes, including the iconic Sigiriya Rock, misty hill country adorned with emerald tea
+                    plantations, and cascading waterfalls that evoke pure serenity.
+                </p>
+            </div>
+            <div class="fourth">
+                <p>
+                    The people of Sri Lanka are warm, welcoming, and diverse, with a tapestry of cultures, languages,
+                    and religions that harmoniously coexist. Their vibrant traditions come to life through colorful
+                    festivals, traditional dances, and aromatic cuisine, where spices and flavors dance on the palate.
+                </p>
+            </div>
+            <div class="fifth">
+                <p>
+                    The beauty of Sri Lanka transcends its physical charm; it's a place where ancient wisdom and
+                    modernity intersect, where tranquility and adventure coexist. It's a land where history whispers
+                    through ancient ruins and where the call of the wild beckons in its national parks. Sri Lanka is not
+                    just a destination; it's an immersive experience, a testament to the splendors of our world that
+                    must be cherished and celebrated.
+                </p>
+            </div>
+        </div>
+
+
+        <script>
+            const button = document.querySelector(".triangle-left");
+            const button1 = document.querySelector(".triangle-right");
+            const button2 = document.querySelector(".triangle-lefta");
+            const button3 = document.querySelector(".triangle-rightb");
+            const con1 = document.querySelector(".rightwhy");
+            const con2 = document.querySelector(".second");
+            const con3 = document.querySelector(".third");
+            const con4 = document.querySelector(".fourth");
+            const con5 = document.querySelector(".fifth");
+            const im1 = document.querySelector(".img1");
+            const im2 = document.querySelector(".img2");
+            const im3 = document.querySelector(".img3");
+            const im4 = document.querySelector(".img4");
+            const im5 = document.querySelector(".img5");
+
+            button.addEventListener("mouseover", function () {
+                button.style.animation = "moveButton 2s forwards"; // Start animation on hover
+                button1.style.visibility = "hidden";
+                button2.style.visibility = "hidden";
+                button3.style.visibility = "hidden";
+                con1.style.visibility = "hidden";
+                con2.style.visibility = "visible";
+                im1.style.visibility = "visible";
+                im2.style.visibility = "hidden";
+                im3.style.visibility = "hidden";
+                im4.style.visibility = "hidden";
+                im5.style.visibility = "hidden";
+
+
+            });
+
+            button.addEventListener("mouseout", function () {
+                button.style.animation = "none"; // Stop animation when the cursor leaves
+                button1.style.visibility = "visible";
+                button2.style.visibility = "visible";
+                button3.style.visibility = "visible";
+                con1.style.visibility = "visible";
+                con2.style.visibility = "hidden";
+                im1.style.visibility = "hidden";
+                im2.style.visibility = "visible";
+                im3.style.visibility = "hidden";
+                im4.style.visibility = "hidden";
+                im5.style.visibility = "hidden";
+
+            });
+            button2.addEventListener("mouseover", function () {
+                button2.style.animation = "moveButton 2s forwards"; // Start animation on hover
+                button1.style.visibility = "hidden";
+                button.style.visibility = "hidden";
+                button3.style.visibility = "hidden";
+                con1.style.visibility = "hidden";
+                con3.style.visibility = "visible";
+                im1.style.visibility = "hidden";
+                im2.style.visibility = "hidden";
+                im3.style.visibility = "hidden";
+                im4.style.visibility = "visible";
+                im5.style.visibility = "hidden";
+
+
+            });
+
+            button2.addEventListener("mouseout", function () {
+                button2.style.animation = "none"; // Stop animation when the cursor leaves
+                button1.style.visibility = "visible";
+                button.style.visibility = "visible";
+                button3.style.visibility = "visible";
+                con1.style.visibility = "visible";
+                con3.style.visibility = "hidden";
+                im1.style.visibility = "hidden";
+                im2.style.visibility = "visible";
+                im3.style.visibility = "hidden";
+                im4.style.visibility = "hidden";
+                im5.style.visibility = "hidden";
+
+            });
+
+
+            button1.addEventListener("mouseover", function () {
+                button1.style.animation = "moveButton2 2s forwards"; // Start animation on hover
+                button2.style.visibility = "hidden";
+                button3.style.visibility = "hidden";
+                button.style.visibility = "hidden";
+                con1.style.visibility = "hidden";
+                con4.style.visibility = "visible";
+                im3.style.visibility = "visible";
+                im1.style.visibility = "hidden";
+                im2.style.visibility = "hidden";
+                im4.style.visibility = "hidden";
+                im5.style.visibility = "hidden";
+
+
+            });
+
+            button1.addEventListener("mouseout", function () {
+                button1.style.animation = "none"; // Stop animation when the cursor leaves
+                button2.style.visibility = "visible";
+                button3.style.visibility = "visible";
+                button.style.visibility = "visible";
+                con1.style.visibility = "visible";
+                con4.style.visibility = "hidden";
+                im1.style.visibility = "hidden";
+                im2.style.visibility = "visible";
+                im3.style.visibility = "hidden";
+                im4.style.visibility = "hidden";
+                im5.style.visibility = "hidden";
+
+            });
+            button3.addEventListener("mouseover", function () {
+                button3.style.animation = "moveButton2 2s forwards"; // Start animation on hover
+                button2.style.visibility = "hidden";
+                button1.style.visibility = "hidden";
+                button.style.visibility = "hidden";
+                con1.style.visibility = "hidden";
+                con5.style.visibility = "visible";
+                im1.style.visibility = "hidden";
+                im2.style.visibility = "hidden";
+                im3.style.visibility = "hidden";
+                im4.style.visibility = "hidden";
+                im5.style.visibility = "visible";
+
+            });
+
+            button3.addEventListener("mouseout", function () {
+                button3.style.animation = "none"; // Stop animation when the cursor leaves
+                button2.style.visibility = "visible";
+                button1.style.visibility = "visible";
+                button.style.visibility = "visible";
+                con1.style.visibility = "visible";
+                con5.style.visibility = "hidden";
+                im1.style.visibility = "hidden";
+                im2.style.visibility = "visible";
+                im3.style.visibility = "hidden";
+                im4.style.visibility = "hidden";
+                im5.style.visibility = "hidden";
+            });
+        </script>
+    </div>
+
+    <div class="place">
+
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img class="imgg" src="photos\sigiriya-sri-lanka-rock-landscape.jpg" style="width:100%">
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img class="imgg" src="photos\tourist-attractions-in-sri-lanka.jpg" style="width:100%">
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img class="imgg" src="photos\shutterstock_1084348016.webp" style="width:100%">
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img class="imgg" src="photos\image_processing20210806-4-1ptyb5v.jpg" style="width:100%">
+
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img class="imgg" src="photos\Pinnewala-Elephant-Orphanage.jpg" style="width:100%">
+
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+        <script src="contact.js"></script>
+
+    </div>
+    <br>
+    <br>
+    <footer>
+        <p class="expl">ExploreEra</p>
+        <p class="call">Call Us Today:0778784564</p>
+    </footer>
+
+</body>
+
+</html>

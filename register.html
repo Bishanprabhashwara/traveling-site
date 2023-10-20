@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="header.css">
+    <script>
+        function validation(form) {
+            if (form.uname.value == "") {
+                alert("Enter a username");
+                return false;
+            }
+            if (form.pass.value != form.conf.value) {
+                alert("Password and confirme password not equal");
+                return false;
+            }
+            else {
+                return true;
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <ul class="hefirst">
+            <li class="hefirst"> <a href="login.html" class="hi">Login</a></li>
+            <li class="hefirst"><a href="contact.html" class="hi">Contact</a></li>
+            <li class="hefirst"><a href="visit.php" class="hi">Destinations</a></li>
+            <li class="hefirst"><a href="Home.html" class="hi">Home</a></li>
+        </ul>
+    </div>
+    <div class="left">
+        <img src=" kandy.jpg" class="sriimag">
+
+    </div>
+    <div clsas="right">
+        <br>
+        <br>
+        <h1 align="center">Register</h1>
+        <br>
+        <br>
+        <form action="register.php" method="post" name="form" onsubmit="return validation(form)">
+            <table align="center">
+                <tr>
+                    <td>
+                        <input type="text" name="uname" placeholder="User Name" class="log">
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <br>
+                        <input type="password" name="pass" placeholder="Password" class="log">
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <br>
+                        <input type="password" name="conf" placeholder="Confirm Password" class="log">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+
+                        <input type="submit" value="login" class="but">
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>

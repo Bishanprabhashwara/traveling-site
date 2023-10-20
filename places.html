@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="places.css">
+    <link rel="stylesheet" href="header.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <ul class="hefirst">
+            <li class="hefirst"> <a href="login.html" class="hi">Login</a></li>
+            <li class="hefirst"><a href="contact.html" class="hi">Contact</a></li>
+            <li class="hefirst"><a href="visit.php" class="hi">Destinations</a></li>
+            <li class="hefirst"><a href="Home.html" class="hi">Home</a></li>
+        </ul>
+    </div>
+    <h1 style="color: #191717;">Upload your data:</h1>
+    <table border="0">
+        <form method="post" action="places.php" name="form">
+            <tr>
+                <td>District Name:</td>
+                <td><input type="text" name="dis" class="tex in"></td>
+            </tr>
+            <tr>
+                <td>Town Name:</td>
+                <td><input type="text" name="tow" class="tex in"></td>
+            </tr>
+            <tr>
+                <td>Place:</td>
+                <td><input type="text" name="pla" class="tex in"></td>
+            </tr>
+            <tr>
+                <td>Distance from Bandaranaike international Airport (Km):</td>
+                <td><input type="text" name="ban" class="tex in"></td>
+            </tr>
+            <tr>
+                <td>Open days in week:</td>
+                <td><input type="text" name="opend" class="tex in"></td>
+            </tr>
+            <tr>
+                <td>Contact number:</td>
+                <td><input type="text" name="phone" class="tex in"><br></td>
+            </tr>
+            <tr>
+                <td>Upload Photo:</td>
+                <td><input type="file" name="phoyo" class="tex"></td>
+            </tr>
+            <tr>
+                <td>Brief information about the place:</td>
+                <td><textarea name="info"></textarea></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="submit" class="bot"></td>
+            </tr>
+
+        </form>
+    </table>
+
+</body>
+
+</html>

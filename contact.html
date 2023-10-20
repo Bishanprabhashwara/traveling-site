@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="header.css">
+    <script type="text/javascript">
+        function validate(form) {
+            if (form.name.value == "") {
+                alert("Enter Name");
+                return false;
+
+            }
+            if (!(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(form.email.value))) {
+                alert("Enter valid email");
+                return false;
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <ul class="hefirst">
+            <li class="hefirst"> <a href="login.html" class="hi">Login</a></li>
+            <li class="hefirst"><a href="contact.html" class="hi">Contact</a></li>
+            <li class="hefirst"><a href="visit.php" class="hi">Destinations</a></li>
+            <li class="hefirst"><a href="Home.html" class="hi">Home</a></li>
+        </ul>
+    </div>
+    <table>
+        <tr>
+            <td class="td1">
+                <h1 class="h1">Get In Touch</h1>
+                <p class="contact1">Discover the world with Us! Explore curated destinations, tailor your experiences,
+                    and benefit from
+                    expert guidance. We prioritize your safety and comfort, ensuring unforgettable adventures. Your
+                    journey begins here.</p>
+                <p>
+                    <span class="contact2"><b>Contact Us!!!</b></span><br>
+                    Contact No:078745478
+                </p>
+                <p>
+
+                    <a href="https://web.facebook.com/login/"><img
+                            src="photos\pngtree-facebook-logo-facebook-icon-png-image_3566127.png"></a>
+                    <a href="www.youtube.com"><img src="photos\sm_5aeee59357bbb.png"></a>
+                    <a href="www.instagram.com"><img src="photos\122263-logo-instagram-free-clipart-hd.png"></a>
+                    <a href="www.telegrame.com"><img src="photos\Telegram-Logo-PNG-Isolated-HD.png"></a>
+                </p>
+            </td>
+            <td class="td2">
+                <div class="fm">
+                    <form action="MAILTO:bishanprabhashwara@gmail.com" method="post" enctype="text/plain"
+                        onsubmit="return validate(form)" name="form">
+                        <input type="text" name="name" placeholder="Name" class="name">
+                        <input type="text" name="email" placeholder="Email" class="email"><br><br>
+                        <input type="text" name="sub" placeholder="Subject" class="sub"><br><br>
+                        <textarea name="msg" placeholder="Message" class="msg"></textarea><br><br>
+                        <input type="submit" value="submit"
+                            style="border: solid white 2px;width: 80px; font-family: 'Times New Roman', Times, serif; font-size: 150%; color: white;">
+
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

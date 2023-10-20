@@ -1,0 +1,339 @@
+#myVideo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: relative;
+    top: 0;
+    color: #f1f1f1;
+    width: 25%;
+    padding-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+}
+
+h1.content1 {
+    color: gray;
+    font-size: 500%;
+    opacity: 0.5;
+}
+
+p.content1 {
+    font-size: 200%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.pynt {
+    color: #f1f1f1;
+    font-size: 130%;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid white;
+    width: 30%;
+    position: relative;
+    background-color: #111111;
+    opacity: 0.5;
+    left: 35%;
+    top: 20%;
+    color: white;
+}
+
+a.hrea {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pynt:hover {
+    color: blue;
+    border: solid blue;
+    font-size: 150%;
+    opacity: 0.8;
+}
+
+.video {
+    position: relative;
+    top: 20%;
+    z-index: -1;
+    text-align: center;
+}
+
+.a {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 500px;
+}
+
+img.sigiriya {
+    width: 45%;
+    height: 75%;
+    padding-right: 5%;
+}
+
+div.intro {
+    position: relative;
+    top: 5%;
+    left: 2%;
+}
+
+.srilanka {
+    font-size: 200%;
+}
+
+.space {
+    padding-left: 5%;
+    color: #1687A7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+}
+
+p.intro {
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+.rightwhy {
+    visibility: visible;
+}
+
+.why {
+    position: relative;
+    top: 30%;
+    left: 1.5%;
+    background-color: #E8FFCE;
+    height: 500px;
+}
+
+.leftwhy {
+    position: relative;
+    top: 200px;
+    left: 20px;
+
+
+}
+
+.floatleft {
+    float: left;
+    width: 100px;
+    height: 500px;
+
+
+}
+
+.rightwhy {
+    float: left;
+
+    position: relative;
+    top: 25%;
+    left: 10%;
+
+}
+
+.first {
+
+    font-family: cursive;
+    font-size: 50px;
+}
+
+
+.second {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 75%;
+    position: relative;
+    left: 5%;
+    visibility: hidden;
+    opacity: 1;
+}
+
+.third {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    visibility: hidden;
+    width: 75%;
+}
+
+.fourth {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    visibility: hidden;
+    width: 75%;
+}
+
+.fifth {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    visibility: hidden;
+    width: 75%;
+
+}
+
+.triangle-left {
+
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 50px solid #111111;
+    border-bottom: 25px solid transparent;
+    z-index: 4;
+    transition: transform 2s ease;
+}
+
+@keyframes moveButton {
+    0% {
+        transform: translate(0, 0);
+        /* Start position */
+    }
+
+    50% {
+        transform: translate(0, -100px);
+        /* Midway position */
+
+    }
+
+    100% {
+        transform: translate(0, -100px) scalex(-1);
+        /* End position */
+
+    }
+
+}
+
+@keyframes moveButton2 {
+    0% {
+        transform: translate(0, 0);
+        /* Start position */
+    }
+
+    50% {
+        transform: translate(0, -100px);
+        /* Midway position */
+
+    }
+
+    100% {
+        transform: translate(0, -100px);
+        /* End position */
+
+    }
+
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #111111;
+    border-bottom: 25px solid transparent;
+    position: relative;
+    top: -5px;
+    z-index: 3;
+    transition: transform 2s ease;
+}
+
+.triangle-lefta {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-right: 50px solid #111111;
+    border-bottom: 25px solid transparent;
+    position: relative;
+    visibility: visible;
+    top: -15px;
+    z-index: 2
+}
+
+.triangle-rightb {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #111111;
+    border-bottom: 25px solid transparent;
+    position: relative;
+    top: -25px;
+    z-index: 1
+}
+
+
+div.img1 {
+    position: absolute;
+    top: 0;
+    left: 8%;
+    opacity: 0.6;
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+
+}
+
+div.img2 {
+    position: absolute;
+    top: 0;
+    left: 8%;
+    opacity: 0.6;
+    width: 92%;
+    height: 100%;
+    visibility: visible;
+
+
+}
+
+div.img3 {
+    position: absolute;
+    top: 0;
+    left: 8%;
+    opacity: 0.6;
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+}
+
+div.img4 {
+    position: absolute;
+    top: 0;
+    left: 8%;
+    opacity: 0.6;
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+
+
+}
+
+div.img5 {
+    position: absolute;
+    top: 0;
+    left: 8%;
+    opacity: 0.6;
+    width: 92%;
+    height: 100%;
+    visibility: hidden;
+
+
+}
+
+.second {
+    opacity: 1;
+}
+
+.floatleft {
+    background-color: #999999;
+}
